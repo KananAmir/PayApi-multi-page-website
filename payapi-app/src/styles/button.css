@@ -1,0 +1,28 @@
+
+.my-btn{
+    background: #BA4270;
+    border-radius: 24px;
+    padding: 12px;
+    width: 90%;
+    outline: none;
+    border: none;
+    font-family: Public Sans;
+    color: #FBFCFE;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.11538
+}
+.my-btn:hover{
+    background: #DA6D97;
+    outline: none;
+}
+@media only screen and (min-width: 768px) {
+    .my-btn{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40%;
+    }
+}

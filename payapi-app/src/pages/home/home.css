@@ -1,0 +1,224 @@
+body{
+    background-color: #EDF3F8;
+}
+.company-logo{
+    width: 50%;
+    filter:  brightness(0) invert(1);
+}
+.my-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+    background-image: url('../../assets/shared/desktop/bg-pattern-circle.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.phone-and-start{
+    display: flex;
+    flex-direction: column;
+}
+.phone-and-api{
+    margin-top: -50px;
+}
+.content-parag{
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 36px;
+    color: #36536B ;
+    padding: 20px;
+}
+
+.phone-pic img{
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: -120px;
+}
+.companies-and-content{
+    padding: 60px 25px;
+    background-color: #1B262F;
+    margin-top: 50px;
+    color: #FBFCFE;
+}
+.aboutus-heading{
+    font-family: DM Serif Display;
+    font-size: 32px;
+    line-height: 36px; 
+    letter-spacing: -0.246154px;
+    margin-bottom: 30px;
+}
+.aboutus-parag{
+    font-family: Public Sans;
+    font-size: 15px;
+    line-height: 28px;
+    opacity: 0.7;
+    margin-bottom: 40px;
+}
+.about-us{
+    border-radius: 50px;
+    padding: 14px 20px;
+    letter-spacing: 1px;
+    border: 1px solid;
+    cursor: pointer;
+    transition: .15s;
+    border: 1px solid #dae1f0;
+    background-color: transparent;
+    color: #FBFCFE;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+}
+.about-us:hover{
+    outline: none;
+}
+.start-heading{
+    color: #36536B;
+    font-family: DM Serif Display;
+    font-size: 32px;
+    line-height: 36px; 
+    letter-spacing: -0.246154px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    .my-header{
+        display: flex;
+        justify-content: space-around;
+        padding: 50px 7%;
+        background-image: url('../../assets/shared/desktop/bg-pattern-circle.svg');
+        background-repeat: no-repeat;
+        background-position: right top ;
+        background-position: 50% 170%;
+    }
+   
+    .content-parag{
+        font-family: DM Serif Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 42px;
+        line-height: 56px;
+        color: #36536B ;
+        margin-top: 5px;
+        padding: 20px;
+        display: inline-block;
+        max-width: 500px;
+    }
+    
+    .phone-pic img{
+        width: 220px;
+        height: 320px;
+        margin-top: -400px;
+    }
+    .companies-and-content{
+        padding: 60px 50px;
+        background-color: #1B262F;
+        margin-top: 50px;
+        color: #FBFCFE;
+    }
+    .companies-content{
+        margin: 0 auto;
+        width: 500px;
+    }
+
+    .input-and-button{
+        position: relative;
+        max-width: 420px;
+        margin:0 auto;;
+    }
+    }
+
+
+@media only screen and (min-width: 1024px) {
+    .my-header{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 10%;
+        height: 500px; /* You must set a specified height */
+        background:url('../../assets/shared/desktop/bg-pattern-circle.svg') 115% 100% no-repeat; background-attachment:sticky;
+    }
+    .phone-and-start{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: -250px;
+        padding-right: 20%;
+        padding-left: 25px;
+    }
+
+    .phone-and-api{
+        text-align: left;
+        margin-left: 10%;
+        margin-top: -40px;
+        order: 1;
+    }
+    .phone-and-api .input-and-button{
+        margin-left: 0;
+    }
+       
+    .content-parag{
+        font-size: 56px;
+        color: #36536B ;
+        margin-top: 5px;
+        padding:20px  0px;
+        display: inline-block;
+        max-width: 550px;
+        margin-left: 0 !important;
+    }
+    /* .input-and-button{
+        max-width: 420px;
+        margin: 0 auto;
+    } */
+    .phone-pic{
+        order: 2;
+    }
+    .phone-pic img{
+        width: 260px;
+        height: 400px; 
+        order: 2;
+        margin-top: -65px;
+    }
+    /* .companies-and-content{
+        margin-top: 100px;
+    } */
+
+    .companies-and-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 60px 10%;
+        background-color: #1B262F;
+        margin-top:  0px;
+        color: #FBFCFE;
+    }
+    .companies-content{
+        margin: 0 auto;
+        padding-right: 5%;
+        text-align: left;
+        order: 1;
+        flex: 1;
+    }
+    .companies{
+        order: 2;
+        flex: 1;
+        margin-top: 50px;
+    }
+    .ready-and-email{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 0 10%;
+    }
+
+    .ready-and-email .input-and-button{
+        flex: 1;
+        margin-right: 10%;
+    }
+    .start-heading{
+        margin-left: 10%;
+        font-size: 48px;
+        flex: 1;
+        text-align: left;
+    }
+}

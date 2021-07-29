@@ -1,0 +1,59 @@
+
+.implement-pic{
+    width: 100%;
+    transform: scale(1) translateX(4%) translateY(10%);
+    margin-bottom: 20px;
+}
+.implement-heading{
+    color: #36536B;
+    font-family: DM Serif Display;
+    font-size: 32px;
+    line-height: 36px; 
+    letter-spacing: -0.246154px;
+    margin-bottom: 30px;
+}
+.implement-parag{
+    font-family: Public Sans;
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 40px;
+    color: #6C8294;
+}
+@media only screen and (min-width: 768px) {
+    .implement-pic{
+        width: 70%;
+        transform: scale(1) translateX(4%) translateY(10%);
+        margin-bottom: 20px;
+    }
+    .implement-heading{
+        font-size: 48px;
+        
+    }
+    .implement-parag{
+        width: 500px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .implement-pic{
+        width: 40%;
+         order: 1;
+    }
+    .implement-content{
+        order: 2;
+        width: 40%;
+    }
+     .implement-heading{
+        font-size: 48px;
+        
+    }
+    .implement-parag{
+        width: auto;
+        margin: 0 auto;
+    } 
+    .implement{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

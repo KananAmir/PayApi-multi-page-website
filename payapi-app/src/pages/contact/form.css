@@ -1,0 +1,112 @@
+.contact-form{
+
+}
+form{
+    background-color: transparent;
+    background-color: #EDF3F8;
+    margin: 0 auto;
+}
+form input, textarea{
+    outline: none;
+    padding: 12px;
+    border: none;
+    width: 80%;
+    border-bottom: 2px solid #DCE4EA;
+    font-family: Public Sans;
+    font-size: 15px;
+    line-height: 25px;
+    color: #36536B;
+    background-color: transparent;
+    }
+
+.form-button{
+    border-radius: 50px;
+    padding: 14px 35px;
+    letter-spacing: 1px;
+    border: 1px solid;
+    cursor: pointer;
+    transition: .15s;
+    border: 1px solid #36536B;
+    background-color: transparent;
+    color: #36536B;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.form-button:hover{
+    background-color: #36536B;
+    color: white;
+    border: none;
+    outline: none;
+ }
+.check{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7%;
+    margin-top: 10px;
+}
+.check-parag{
+    font-size: 15px;
+    line-height: 25px;
+    margin-left: 10px;
+    text-align: left;
+    flex: 8;
+    }
+.chechk-div{
+    background-color: #36536B;
+    background-color: rgba(54, 83, 107, 0.25);
+    width: 24px;
+    height: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+.contact-companyHeading{
+    margin: 0 5%;
+}
+.check-div-img{
+    display: block;
+}
+@media only screen and (min-width: 768px) {
+    .chechk-div{
+        width: 24px;
+        height: 24px;
+        margin-top: 10px;
+        
+    }
+    form input, textarea{
+   
+        width: 60%;
+     
+        }
+    .check{
+        padding: 0 20%;
+    }
+    .chechk-div{
+        width: 26px;
+        height: 24px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .check-parag{
+        font-size: 15px;
+        line-height: 25px;
+        margin-left: 10px;
+        text-align: left;
+        flex: 15;
+    }
+    .form-button{
+        float: left;
+        margin-left: 20%;
+     }
+}   
+@media only screen and (min-width: 1024px) {
+  
+
+    }

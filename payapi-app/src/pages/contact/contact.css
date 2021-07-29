@@ -1,0 +1,57 @@
+.contact-heading{
+    color: #36536B;
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 40px;
+    margin-top: -100px;
+}
+.contact-company-heading{
+    color: #36536B;
+}
+.contact-main{
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+    .contact-heading{
+        margin-top: -350px;
+        padding: 0 100px !important;
+        font-size: 48px;
+        line-height: 56px;
+    
+    }
+    .contact-company-heading{
+        width: 50%;
+        margin: 0 auto;
+    }
+}   
+@media only screen and (min-width: 1024px) {
+  .contact-main{
+      display: flex;
+      flex-direction: row;
+  }
+  .contact-company-heading{
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    margin-right: 0;
+}
+.join-companies{
+    margin-top: -80px;
+    text-align: left !important;
+    padding-right: 7%;
+    flex: 1;
+}
+.submit-form{
+    flex: 1;
+}
+.contact-heading{
+   padding-right: 0 !important; 
+    margin-right: -150px;
+    text-align: left;
+}
+}   
