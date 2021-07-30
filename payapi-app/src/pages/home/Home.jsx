@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import Navbar from '../../components/Navbar';
 import './home.css'
-import logo from '../../assets/shared/desktop/logo.svg'
 import phone from '../../assets/home/desktop/illustration-phone-mockup.svg'
 import FormInput from '../../components/FormInput';
 import Button from '../../components/Button';
@@ -10,33 +8,28 @@ import EasyImplement from '../../components/EasyImplement';
 import UIandUX from '../../components/UIandUX';
 import Footer from '../../components/Footer';
 import CircleLogos from '../../components/CircleLogos';
-import { NavLink } from 'react-router-dom';
-
-
+import MyHeader from '../../components/MyHeader';
 export default class Home extends Component {
 
     render() {
         return (
             <div className="home">
-                
-                <header className="my-header">
-                <NavLink exact to = "/"><img className="myLogo" src={logo} alt='PayApi' /> </NavLink>
-                    <Navbar />
-                </header>
-                
-              <div className="phone-and-start">
-                    <div className="phone-pic">
-                        <img src={phone} alt="mobile phone" />
-                    </div>
-                    <div className="phone-and-api">
-                        <h1 className='content-parag'>Start building with out APIs for absolutely free.</h1>
-                        <div className="input-and-button">
-                            <FormInput />
-                            <Button />
-                        </div> 
-                        <p>Have any questions? <b>Contact Us</b></p>
-                    </div>
-              </div>
+               <div className="bg-circle-home">
+                    <MyHeader/>
+                    <div className="phone-and-start">
+                            <div className="phone-pic">
+                                <img src={phone} alt="mobile phone" />
+                            </div>
+                            <div className="phone-and-api">
+                                <h1 className='content-parag'>Start building with out APIs for absolutely free.</h1>
+                                <div className="input-and-button">
+                                    <FormInput />
+                                    <Button />
+                                </div> 
+                                <p>Have any questions? <b>Contact Us</b></p>
+                            </div>
+                        </div>
+               </div>
                
                 <div className="companies-and-content">
                     <div className="companies">                

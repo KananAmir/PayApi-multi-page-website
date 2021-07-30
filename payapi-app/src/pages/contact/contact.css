@@ -39,6 +39,7 @@
     margin: 0 auto;
     text-align: left;
     margin-right: 0;
+    
 }
 .join-companies{
     margin-top: -80px;
@@ -50,8 +51,9 @@
     flex: 1;
 }
 .contact-heading{
-   padding-right: 0 !important; 
-    margin-right: -150px;
+    margin-right: -250px;
     text-align: left;
+    margin-left: 20% !important;
+    padding: 0 !important;
 }
 }   

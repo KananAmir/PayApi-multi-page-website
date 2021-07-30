@@ -5,7 +5,7 @@ import close from '../assets/shared/mobile/close.svg'
 
 export const HamburgerMenu = (props) => {
         return (
-            <div className="hamburgerenu">
+            <div className="hamburger-menu">
             <img onClick={props.handleCloseMenu} className='btn-close' src={close} alt="close" />
 
                 <div className="line"/>

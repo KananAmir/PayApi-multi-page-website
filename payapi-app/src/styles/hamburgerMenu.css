@@ -1,11 +1,11 @@
 
 .hamburger-menu{
     height: 100vh;
-    width: 550%;
+    width: 83%;
     background-color: #1B262F;
     position: absolute;
-    top: -30px;
-    right: -70%;
+    top: -0;
+    right: 0;
     align-items: center;
     display: block;
     z-index: 2;

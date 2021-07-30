@@ -7,7 +7,7 @@ export default class Footer extends Component {
         return (
             <div className="footer">
                 <div className="footer-logo">
-                    <a href="#"><img className="footer-logo-pic" src={logo} alt='PayApi' /></a>  
+                    <a href="/"><img className="footer-logo-pic" src={logo} alt='PayApi' /></a>  
                 </div>
                 <div className="footer-nav">
                    <ul>
@@ -17,9 +17,9 @@ export default class Footer extends Component {
                    </ul>
                 </div>
                 <div className="footer-social">
-                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/"><i className="fab fa-facebook-square"></i></a>
+                    <a href="https://twitter.com/"><i className="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/"><i className="fab fa-linkedin"></i></a>
                 </div>
             </div>
         )

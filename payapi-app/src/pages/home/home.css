@@ -1,18 +1,16 @@
 body{
     background-color: #EDF3F8;
 }
+.bg-circle-home{
+    background-image: url('../../assets/shared/desktop/bg-pattern-circle.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+}
 .company-logo{
     width: 50%;
     filter:  brightness(0) invert(1);
 }
-.my-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 10%;
-    background-image: url('../../assets/shared/desktop/bg-pattern-circle.svg');
-    background-repeat: no-repeat;
-    background-position: bottom;
-}
+
 .phone-and-start{
     display: flex;
     flex-direction: column;
@@ -83,14 +81,9 @@ body{
 }
 
 @media only screen and (min-width: 768px) {
-    .my-header{
-        display: flex;
-        justify-content: space-around;
-        padding: 50px 7%;
-        background-image: url('../../assets/shared/desktop/bg-pattern-circle.svg');
-        background-repeat: no-repeat;
-        background-position: right top ;
-        background-position: 50% 170%;
+    .company-logo{
+        width: 100px;
+        filter:  brightness(0) invert(1);
     }
    
     .content-parag{
