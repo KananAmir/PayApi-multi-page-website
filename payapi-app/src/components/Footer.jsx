@@ -6,7 +6,7 @@ export default class Footer extends Component {
     render() {
         return (
             <div className="footer">
-                <div className="footer-logo">
+                <div className="footer-logo ">
                     <a href="/"><img className="footer-logo-pic" src={logo} alt='PayApi' /></a>  
                 </div>
                 <div className="footer-nav">

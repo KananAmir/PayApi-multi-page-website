@@ -20,11 +20,11 @@ export default class MyHeader extends Component {
         return (
             <div className="my-header">
                 <div className='row'>
-                    <div className="col col-md-3 col-lg-2">
+                    <div className="col col-md-3 col-lg-2 text-left">
                         <NavLink exact to = "/"><img className="myLogo" src={logo} alt='PayApi' /> </NavLink>
                     </div>
-                    <div className='navbar-div col col-md-2 col-lg-2 mt-2'>
-                        <div className="main-nav">
+                    <div className='navbar-div col col-md-5 col-lg-4 mt-2'>
+                        <div className="main-nav ml-5">
                         <ul>
                             <li><NavLink exact to = "/pricing">Pricing</NavLink></li>
                             <li><NavLink exact to = "/about">About</NavLink></li>
@@ -32,7 +32,7 @@ export default class MyHeader extends Component {
                         </ul>
                         </div>
                     </div>      
-                    <div className="btn-div col col-lg-8">
+                    <div className="btn-div col col-md-4 col-lg-6">
                             <Button/>
                     </div> 
                 </div>

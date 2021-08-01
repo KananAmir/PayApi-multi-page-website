@@ -19,6 +19,9 @@
     margin: 10px;
     font-weight: bold;
 }
+.menu-nav a:visited{
+    color: #FBFCFE;
+}
 .btn-close{
     float: right;
     margin-right: 17%       ;

@@ -1,8 +1,11 @@
 .my-header{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
     padding: 7%;
+    margin-bottom: 40px;
+    background-image: url('../assets/shared/desktop/bg-pattern-circle.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;   
 }
 .btn-open{
     margin-top: 10px;
@@ -36,14 +39,20 @@
         background-position: right top ;
         background-position: 50% 170%; */
         padding: 5%;
-        display: block;
+        display: block;   
+        height: 400px;
+        background-image: url('../assets/shared/desktop/bg-pattern-circle.svg');
+        background-repeat: no-repeat;   
+        background-position: 80% 110%;
     }
 
     .navbar-div{
         /* flex: 1; */
+        z-index: 10;  
     }
     .main-nav{
         display: flex;
+     
     }
     .btn-div{
         display: block;
@@ -62,13 +71,22 @@
         margin:  0 10px;
         font-weight: bold;
     }
+    .main-nav a:visited{
+        color: #36536B;
+    }
     }
     @media only screen and (min-width: 1024px) {
 
         .my-header{
-            padding: 3% 8%;
+            padding: 3% 8%;    
+            height: 500px;
         }
-         .navbar-div{
-            
+        .my-header{
+            padding: 5%;
+            display: block;   
+            background-image: url('../assets/shared/desktop/bg-pattern-circle.svg');
+            background-repeat: no-repeat;   
+            background-position: 102% 100%;
         }
+    
     }

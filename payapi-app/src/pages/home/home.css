@@ -1,11 +1,7 @@
 body{
     background-color: #EDF3F8;
 }
-.bg-circle-home{
-    background-image: url('../../assets/shared/desktop/bg-pattern-circle.svg');
-    background-repeat: no-repeat;
-    background-position: top;
-}
+
 .company-logo{
     width: 50%;
     filter:  brightness(0) invert(1);
@@ -31,7 +27,7 @@ body{
 .phone-pic img{
     width: 200px;
     height: 300px;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-top: -120px;
 }
 .companies-and-content{
@@ -85,7 +81,6 @@ body{
         width: 100px;
         filter:  brightness(0) invert(1);
     }
-   
     .content-parag{
         font-family: DM Serif Display;
         font-style: normal;
@@ -94,15 +89,13 @@ body{
         line-height: 56px;
         color: #36536B ;
         margin-top: 5px;
-        padding: 20px;
         display: inline-block;
         max-width: 500px;
-    }
-    
+    }  
     .phone-pic img{
         width: 220px;
         height: 320px;
-        margin-top: -400px;
+        margin-top: -250px;
     }
     .companies-and-content{
         padding: 60px 50px;
@@ -124,25 +117,17 @@ body{
 
 
 @media only screen and (min-width: 1024px) {
-    .my-header{
-        display: flex;
-        justify-content: space-between;
-        padding: 50px 10%;
-        height: 500px; /* You must set a specified height */
-        background:url('../../assets/shared/desktop/bg-pattern-circle.svg') 115% 100% no-repeat; background-attachment:sticky;
-    }
     .phone-and-start{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-between !important;
         margin-top: -250px;
-        padding-right: 20%;
-        padding-left: 25px;
+        margin-bottom: 50px;
     }
 
     .phone-and-api{
         text-align: left;
-        margin-left: 10%;
+        margin-left: 9%;
         margin-top: -40px;
         order: 1;
     }
@@ -151,26 +136,24 @@ body{
     }
        
     .content-parag{
-        font-size: 56px;
+        font-size: 64px;
+        line-height: 72px;
         color: #36536B ;
         margin-top: 5px;
-        padding:20px  0px;
+        padding: 20px 0px;
         display: inline-block;
-        max-width: 550px;
+        max-width: 650px;
         margin-left: 0 !important;
     }
-    /* .input-and-button{
-        max-width: 420px;
-        margin: 0 auto;
-    } */
     .phone-pic{
         order: 2;
+        margin: 0 auto;
     }
     .phone-pic img{
-        width: 260px;
-        height: 400px; 
+        width: 350px;
+        height: 550px; 
         order: 2;
-        margin-top: -65px;
+        margin-top: -130px;
     }
     /* .companies-and-content{
         margin-top: 100px;
@@ -199,17 +182,15 @@ body{
     }
     .ready-and-email{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-        margin-right: 0 10%;
     }
-
     .ready-and-email .input-and-button{
         flex: 1;
-        margin-right: 10%;
+        margin-right: 8%;
     }
     .start-heading{
-        margin-left: 10%;
+        margin-left: 8%;
         font-size: 48px;
         flex: 1;
         text-align: left;

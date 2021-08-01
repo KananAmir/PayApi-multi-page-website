@@ -1,18 +1,14 @@
 import React, { Component } from 'react'
-import Footer from '../../components/Footer';
 import FormInput from './../../components/FormInput';
 import Button from '../../components/Button';
 import mobile_about_img from '../../assets/about/mobile/image-team-members.jpg'
 import tablet_about_img from '../../assets/about/tablet/image-team-members.jpg'
 import desktop_about_img from '../../assets/about/desktop/image-team-members.jpg'
 import './about.css'
-import MyHeader from '../../components/MyHeader';
 export default class About extends Component {
     render() {
         return (
             <div className="about">
-                <MyHeader/>
-
                 <h1 className="about-heading">We empower innovators by delivering access to the financial system</h1>
 
                 <div className="about-content">
@@ -64,7 +60,6 @@ export default class About extends Component {
                         <Button />
                     </div>
                 </div>  
-                <Footer />
             </div>
         )
     }

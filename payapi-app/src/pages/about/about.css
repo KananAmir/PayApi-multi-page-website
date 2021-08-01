@@ -69,7 +69,7 @@
     .about-heading{
         width: 580px;
         margin: 0 auto;
-        margin-top: -350px;
+        margin-top: -300px;
         margin-bottom: 40px;
         font-size: 48px;
         line-height: 56px    
@@ -120,7 +120,7 @@
         padding: 20px 0;
         border-top: 2px solid #BFCBD5;
         border-bottom: 2px solid #BFCBD5;
-        margin: 0 10%;
+        margin: 0 8%;
         margin-bottom: 30px;
     }
     .about-content{

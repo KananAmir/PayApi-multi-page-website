@@ -15,16 +15,18 @@
 
 @media only screen and (min-width: 768px) {
     .pricing-heading{
-       margin-top: -350px;
+       margin-top: -300px;
        font-size: 48px;
        line-height: 56px;
+       text-align: center;
+       margin-left: 8%;
     }
 }   
-@media only screen and (min-width: 1024) {
+@media only screen and (min-width: 1024px) {
     .pricing{
        text-align: left !important;
     }
     .pricing-heading{
-       text-align: left;
+      text-align: left;
     }
 }   

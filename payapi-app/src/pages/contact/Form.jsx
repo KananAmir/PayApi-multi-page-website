@@ -2,6 +2,23 @@ import React, { Component } from 'react'
 import '../contact/form.css'
 import checked from '../../assets/shared/desktop/icon-check.svg';
 export default class Form extends Component {
+    state ={
+        checked: false,
+    }
+
+    // onChecboxClick = (checked) =>{
+    //     this.setState({
+    //         checked
+    //     });
+    // }
+
+    onChecboxClick = () =>{
+       if(this.state.checked) {
+           this.setState({checked:false})
+       }
+       else this.setState({checked:true})
+    }
+
     render() {
         return (
             <div className="contact-form">
@@ -13,7 +30,8 @@ export default class Form extends Component {
                     <textarea id="" name="" rows="4" cols="50" placeholder="Message"></textarea><br />
 
                     <div className="check">
-                        <div className="chechk-div"><img src={checked} alt="" /></div>
+                        {this.state.checked ?  <div onClick={this.onChecboxClick} className="check-div check-div-clicked"><img className="mb-2" style={{filter: "brightness(0) invert(1)"}} src={checked} alt="" /></div> : <div onClick={this.onChecboxClick} className="check-div"></div>}
+                     
                         <p className="check-parag">Stay up-to-date with company announcements and updates to our API</p>
                     </div>
                     <button className="form-button"> Submit</button>

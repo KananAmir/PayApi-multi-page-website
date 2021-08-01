@@ -2,17 +2,12 @@ import React, { Component } from 'react'
 import Form from './Form'
 import FormInput from '../../components/FormInput';
 import Button from '../../components/Button';
-import Footer from '../../components/Footer'
 import './contact.css'
 import Companies from '../../components/Companies';
-import MyHeader from '../../components/MyHeader';
-
 export default class Contact extends Component {
     render() {
         return (
             <div className="contact">
-               <MyHeader/>
-
                <div className="contact-main">
                     <div className="submit-form">
                         <h1 className="contact-heading p-2">
@@ -34,7 +29,6 @@ export default class Contact extends Component {
                         <Button />
                     </div>
                 </div>  
-                <Footer />
             </div>
         )
     }

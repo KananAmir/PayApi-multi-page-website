@@ -10,12 +10,12 @@
     filter:  brightness(0) invert(1);
     margin-bottom: 15px;
 }
-.footer-nav a{
+.footer-nav a, .footer-nav a:hover{
     color: white; 
     display: inline-block;  
     margin: 10px;
 }
-.footer-social a{
+.footer-social a, .footer-social a:hover{
     color: white;
 }
 .footer-social i{
@@ -34,7 +34,7 @@
     }
     .footer-nav ul{
         display: flex;
-        margin-left: -150px;
+        margin-top: 5px;
     }
     .footer-social i{
         margin-top: 0px;
@@ -52,5 +52,13 @@
     .footer-social i{
         margin-top: 0px;
     }
+}
+@media only screen and (min-width: 1200px) {  
+
+    .footer-nav ul{
+        display: flex;
+        margin-left: -350px;
+    }
+ 
 }
 
