@@ -7,10 +7,10 @@ form{
 }
 form input, textarea{
     outline: none;
-    padding: 12px;
+    padding: 20px 16px;
     border: none;
     width: 80%;
-    border-bottom: 2px solid #DCE4EA;
+    border-bottom: 2px solid #D2DBE3;
     font-family: Public Sans;
     font-size: 15px;
     line-height: 25px;

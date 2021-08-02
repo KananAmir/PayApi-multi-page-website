@@ -7,6 +7,8 @@ import Companies from '../../components/Companies';
 import EasyImplement from '../../components/EasyImplement';
 import UIandUX from '../../components/UIandUX';
 import CircleLogos from '../../components/CircleLogos';
+import { NavLink } from 'react-router-dom';
+
 export default class Home extends Component {
 
     render() {
@@ -22,7 +24,7 @@ export default class Home extends Component {
                                     <FormInput />
                                     <Button />
                                 </div> 
-                                <p>Have any questions? <b>Contact Us</b></p>
+                                <p>Have any questions? <b><NavLink exact to = "/contact">Contact Us</NavLink></b></p>
                             </div>
                     </div>
                 <div className="companies-and-content">

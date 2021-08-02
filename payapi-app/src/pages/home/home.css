@@ -14,6 +14,12 @@ body{
 .phone-and-api{
     margin-top: -50px;
 }
+.phone-and-api a{
+    color: #6C8294;;
+}
+.phone-and-api a:visited{
+    color: #6C8294;;
+}
 .content-parag{
     font-family: DM Serif Display;
     font-style: normal;
@@ -75,6 +81,8 @@ body{
     letter-spacing: -0.246154px;
     margin-bottom: 30px;
 }
+
+
 
 @media only screen and (min-width: 768px) {
     .company-logo{
