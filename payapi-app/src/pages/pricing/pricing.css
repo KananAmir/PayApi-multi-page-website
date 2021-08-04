@@ -1,32 +1,29 @@
-.myLogo{
-    height: 38px;
+.myLogo {
+  height: 38px;
 }
-.pricing-heading{
-    color: #36536B;
-    font-family: DM Serif Display;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 32px;
-    margin-bottom: 40px;
-    margin-top: -100px;
+.pricing-heading {
+  color: #36536b;
+  font-family: DM Serif Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 32px;
+  margin-bottom: 40px;
 }
-
 
 @media only screen and (min-width: 768px) {
-    .pricing-heading{
-       margin-top: -300px;
-       font-size: 48px;
-       line-height: 56px;
-       text-align: center;
-       margin-left: 8%;
-    }
-}   
+  .pricing-heading {
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    margin-left: 8%;
+  }
+}
 @media only screen and (min-width: 1024px) {
-    .pricing{
-       text-align: left !important;
-    }
-    .pricing-heading{
-      text-align: left;
-    }
-}   
+  .pricing {
+    text-align: left !important;
+  }
+  .pricing-heading {
+    text-align: left;
+  }
+}

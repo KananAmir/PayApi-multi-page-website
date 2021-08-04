@@ -1,92 +1,73 @@
-.my-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 7%;
-    margin-bottom: 40px;
-    background-image: url('../assets/shared/desktop/bg-pattern-circle.svg');
-    background-position: bottom;
-    background-repeat: no-repeat;   
+.my-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 7%;
+  margin-bottom: 40px;
+  /* background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
+  background-position: bottom;
+  background-repeat: no-repeat; */
 }
-.btn-open{
-    margin-top: 10px;
-    height: 17px;
-    width: 28px;
+.btn-open {
+  margin-top: 10px;
+  height: 17px;
+  width: 28px;
 }
-.navbar-div{
-    align-items: center;
-    padding-bottom: 55% !important;
+.navbar-div {
+  align-items: center;
 }
-
-.main-nav{
-    display: none;
+.main-nav {
+  display: none;
 }
-.btn-div{
-    display: none;
+.btn-div {
+  display: none;
 }
-
 
 @media only screen and (min-width: 768px) {
+  .btn-open {
+    display: none;
+  }
+  .my-header {
+    padding: 5%;
+    display: block;
+    /* background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
+    background-repeat: no-repeat;
+    background-position: 80% 110%; */
+  }
 
-    .btn-open{
-            display: none;
-    }
-    .my-header{
-        /* display: flex;
-        justify-content: space-around;
-        padding: 50px 7%;
-        background-image: url('../assets/shared/desktop/bg-pattern-circle.svg');
-        background-repeat: no-repeat;
-        background-position: right top ;
-        background-position: 50% 170%; */
-        padding: 5%;
-        display: block;   
-        height: 400px;
-        background-image: url('../assets/shared/desktop/bg-pattern-circle.svg');
-        background-repeat: no-repeat;   
-        background-position: 80% 110%;
-    }
+  .navbar-div {
+    /* flex: 1; */
+    z-index: 10;
+  }
+  .main-nav {
+    display: flex;
+  }
+  .btn-div {
+    display: block;
+    position: relative;
+  }
+  .main-nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 250px;
+  }
+  .main-nav a {
+    color: #36536b;
+    opacity: 0.7;
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  .main-nav a:visited {
+    color: #36536b;
+  }
+}
 
-    .navbar-div{
-        /* flex: 1; */
-        z-index: 10;  
-    }
-    .main-nav{
-        display: flex;
-     
-    }
-    .btn-div{
-        display: block;
-        position: relative;
-
-    }
-    .main-nav ul{
-        display: flex;
-        flex-direction: row;
-        margin-right: 250px;
-    }
-    .main-nav a{
-        color: #36536B;
-        opacity: 0.7;
-        display: inline-block;
-        margin:  0 10px;
-        font-weight: bold;
-    }
-    .main-nav a:visited{
-        color: #36536B;
-    }
-    }
-    @media only screen and (min-width: 1024px) {
-
-        .my-header{
-            padding: 3% 8%;    
-            height: 500px;
-        }
-        .my-header{
-            padding: 5%;
-            display: block;   
-            background-image: url('../assets/shared/desktop/bg-pattern-circle.svg');
-            background-repeat: no-repeat;   
-            background-position: 102% 100%;
-        }
-    
-    }
+@media only screen and (min-width: 1024px) {
+  .my-header {
+    padding: 3% 5%;
+    display: block;
+    /* background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
+    background-repeat: no-repeat;
+    background-position: 102% 100%; */
+  }
+}

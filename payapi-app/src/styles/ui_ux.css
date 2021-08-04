@@ -1,59 +1,57 @@
-
-.ui-ux{
-    width: 100%;
-    transform: scale(1) translateX(3%) translateY(0%);
+.ui-ux {
+  width: 100%;
+  transform: scale(1) translateX(3%) translateY(0%);
 }
-.ui-ux-heading{
-    color: #36536B;
-    font-family: DM Serif Display;
-    font-size: 30px;
-    line-height: 36px; 
-    letter-spacing: -0.246154px;
-    margin-bottom: 30px;
+.ui-ux-heading {
+  color: #36536b;
+  font-family: DM Serif Display;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -0.246154px;
+  margin-bottom: 30px;
 }
-.ui-ux-parag{
-    font-family: Public Sans;
-    font-size: 15px;
-    line-height: 28px;
-    margin-bottom: 40px;
-    color: #6C8294;
+.ui-ux-parag {
+  font-family: Public Sans;
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 40px;
+  color: #6c8294;
 }
 
 @media only screen and (min-width: 768px) {
-    .ui-ux{
-        margin-top: 40px;
-        width: 70%;
-        transform: scale(1) translateX(3%) translateY(0%);
-    }
-    .ui-ux-heading{
-        font-size: 48px;
-        line-height: 48px;
-    }
-    .ui-ux-parag{
-     width: 500px;
+  .ui-ux {
+    margin-top: 40px;
+    width: 70%;
+    transform: scale(1) translateX(3%) translateY(0%);
+  }
+  .ui-ux-heading {
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .ui-ux-parag {
+    width: 500px;
     margin: 0 auto;
-    }
+  }
 }
 @media only screen and (min-width: 1024px) {
-    .ui-ux-div{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin: 0 10% 
-    }
-    .ui-ux-content{
-        flex: 1;
-        width: 45%;
-        order: 1;
-    }
-    .ui-ux{
-        width: 45%;
-        flex: 1;
-        order: 2;
-    }
-    .ui-ux-parag{
-        width: auto;
-       margin: 0 auto;
-       }
-    
+  .ui-ux-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10%;
+  }
+  .ui-ux-content {
+    flex: 1;
+    width: 45%;
+    order: 1;
+  }
+  .ui-ux {
+    width: 45%;
+    flex: 1;
+    order: 2;
+  }
+  .ui-ux-parag {
+    width: auto;
+    margin: 0 auto;
+  }
 }

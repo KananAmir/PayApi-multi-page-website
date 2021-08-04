@@ -18,6 +18,7 @@
     background: #DA6D97;
     outline: none;
 }
+
 @media only screen and (min-width: 768px) {
     .my-btn{
         position: absolute;

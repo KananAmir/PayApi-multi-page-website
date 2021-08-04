@@ -1,62 +1,70 @@
-.contact-heading{
-    color: #36536B;
-    font-family: DM Serif Display;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 32px;
-    margin-bottom: 40px;
-    margin-top: -100px;
+.contact-heading {
+  color: #36536b;
+  font-family: DM Serif Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 32px;
+  margin-bottom: 40px;
 }
-.contact-company-heading{
-    color: #36536B;
+.contact-company-heading {
+  color: #36536b;
 }
-.contact-main{
-    display: flex;
-    flex-direction: column;
+.contact-main {
+  display: flex;
+  flex-direction: column;
+}
+.check-parag,
+.check-div {
+  margin-top: 20px;
 }
 
 @media only screen and (min-width: 768px) {
-    .contact-heading{
-        padding: 0 100px !important;
-        font-size: 48px;
-        line-height: 56px;
-        width: 580px;
-        margin: 0 auto;
-        margin-top: -300px;
-    }
-    .contact-company-heading{
-        width: 50%;
-        margin: 0 auto;
-    }
-}   
-@media only screen and (min-width: 1024px) {
-  .contact-main{
-      display: flex;
-      flex-direction: row;
+  .contact-heading {
+    padding: 0 100px !important;
+    font-size: 48px;
+    line-height: 56px;
+    width: 580px;
+    margin: 0 auto;
   }
-  .contact-company-heading{
+  .contact-company-heading {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .check-parag,
+  .check-div {
+    margin-top: 0px;
+  }
+
+}
+@media only screen and (min-width: 1024px) {
+  .contact-main {
+    display: flex;
+    flex-direction: row;
+  }
+  .contact-company-heading {
     width: 90%;
     margin: 0 auto;
     text-align: left;
     margin-right: 0;
     max-width: 500px;
     margin-left: 5%;
-}
-.join-companies{
+  }
+  .join-companies {
     margin-top: -80px;
     text-align: left !important;
     padding-right: 7%;
     flex: 1;
-}
-.submit-form{
+  }
+  .submit-form {
     flex: 1;
-}
-.contact-heading{
+  }
+  .contact-heading {
     margin-right: -250px;
     text-align: left;
     margin-left: 17%;
+  }
+  .join-companies {
+    margin-top: 250px;
+  }
 }
-.ready-and-email{
-}
-}   

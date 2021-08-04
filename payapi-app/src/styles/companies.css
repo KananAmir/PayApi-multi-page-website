@@ -1,20 +1,18 @@
-
-.company-logo{
-    width: 100%;
-    filter:  none;
+.company-logo {
+  width: 100%;
+  filter: none;
 }
-.companies{
-    width: 90%;
-    margin: 0 auto;
+.companies {
+  width: 90%;
+  margin: 0 auto;
 }
 @media only screen and (min-width: 768px) {
-    .company-logo{
-        width: 80%;
-        }
-}   
+  .company-logo {
+    width: 80%;
+  }
+}
 @media only screen and (min-width: 1024px) {
-    .partners{
-        margin: 0;
-    }
-
-}   
+  .partners {
+    margin: 0;
+  }
+}
