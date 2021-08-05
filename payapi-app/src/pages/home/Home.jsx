@@ -14,28 +14,28 @@ export default class Home extends Component {
     return (
       <div className="home">
         <div className="bg-circle">
-        <div className="phone-and-start">
-          <div className="phone-pic">
-            <img src={phone} alt="mobile phone" />
-          </div>
-          <div className="phone-and-api">
-            <h1 className="content-parag">
-              Start building with out APIs for absolutely free.
-            </h1>
-            <div className="input-and-button">
-              <FormInput />
-              <Button />
+          <div className="phone-and-start">
+            <div className="phone-pic">
+              <img src={phone} alt="mobile phone" />
             </div>
-            <p>
-              Have any questions?{" "}
-              <b>
-                <NavLink exact to="/contact">
-                  Contact Us
-                </NavLink>
-              </b>
-            </p>
+            <div className="phone-and-api">
+              <h1 className="content-parag">
+                Start building with out APIs for absolutely free.
+              </h1>
+              <div className="input-and-button">
+                <FormInput />
+                <Button />
+              </div>
+              <p>
+                Have any questions?{" "}
+                <b>
+                  <NavLink exact to="/contact">
+                    Contact Us
+                  </NavLink>
+                </b>
+              </p>
+            </div>
           </div>
-        </div>
         </div>
         <div className="companies-and-content">
           <div className="companies">

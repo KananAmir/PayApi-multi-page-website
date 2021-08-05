@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Form from "./Form";
+import Form from "./Form.jsx";
 import FormInput from "../../components/FormInput";
 import Button from "../../components/Button";
 import "./contact.css";
