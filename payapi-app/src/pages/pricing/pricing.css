@@ -1,4 +1,6 @@
-
+.pricing{
+  padding-top: 100px;
+}
 .pricing-heading {
   color: #36536b;
   font-family: DM Serif Display;
@@ -10,6 +12,9 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .pricing{
+    padding-top: 150px;
+  }
   .pricing-heading {
     font-size: 48px;
     line-height: 56px;
@@ -20,6 +25,7 @@
 @media only screen and (min-width: 1024px) {
   .pricing {
     text-align: left !important;
+    padding-top: 200px;
   }
   .pricing-heading {
     text-align: left;

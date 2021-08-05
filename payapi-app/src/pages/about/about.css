@@ -1,3 +1,6 @@
+.about{
+  padding-top: 100px;
+}
 .about-heading {
   color: #36536b;
   font-family: DM Serif Display;
@@ -64,6 +67,9 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .about{
+    padding-top: 150px;
+  }
   .about-heading {
     width: 580px;
     margin: 0 auto;
@@ -112,6 +118,9 @@
   }
 }
 @media only screen and (min-width: 1024px) {
+  .about{
+    padding-top: 200px;
+  }
   .about-statics {
     display: flex;
     justify-content: space-between;

@@ -1,3 +1,6 @@
+.contact{
+  padding-top: 100px;
+}
 .contact-heading {
   color: #36536b;
   font-family: DM Serif Display;
@@ -20,6 +23,9 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .contact{
+    padding-top: 150px;
+  }
   .contact-heading {
     padding: 0 100px !important;
     font-size: 48px;
@@ -38,6 +44,9 @@
 
 }
 @media only screen and (min-width: 1024px) {
+  .contact{
+    padding-top: 200px;
+  }
   .contact-main {
     display: flex;
     flex-direction: row;
